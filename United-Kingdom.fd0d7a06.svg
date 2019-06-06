@@ -1,0 +1,22 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="United Kingdom">
+<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="48" height="48">
+<path id="Vector" d="M24 48C37.2548 48 48 37.2548 48 24C48 10.7452 37.2548 0 24 0C10.7452 0 0 10.7452 0 24C0 37.2548 10.7452 48 24 48Z" fill="#C4C4C4"/>
+</mask>
+<g mask="url(#mask0)">
+<g id="Group">
+<path id="Vector_2" d="M60.7203 0H-12.7197V48.48H60.7203V0Z" fill="#00248D"/>
+<path id="Vector_3" d="M60.7203 5.52V0H52.3203L30.0003 14.88V0H18.0003V14.64L-4.55973 0H-12.7197V5.28L4.08027 16.32H-12.7197V32.16H3.84027L-12.7197 43.2V48.24H-4.55973L18.0003 33.6V48.48H30.0003V33.36L52.3203 48.24H60.7203V42.72L44.4003 32.16H60.7203V16.32H44.4003L60.7203 5.52Z" fill="white"/>
+<g id="Group_2">
+<path id="Vector_4" d="M60.7203 19.44H27.6003V0H20.4003V19.44H-12.7197V29.04H20.4003V48.48H27.6003V29.04H60.7203V19.44Z" fill="#FA0000"/>
+<g id="Group_3">
+<path id="Vector_5" d="M16.5598 32.3999H11.2798L-12.2402 48.2399H-7.44023L16.5598 32.3999Z" fill="#FA0000"/>
+<path id="Vector_6" d="M42.0007 32.3999H36.7207L60.7207 48.2399V45.1199L42.0007 32.3999Z" fill="#FA0000"/>
+<path id="Vector_7" d="M11.2803 15.84L-12.7197 0V3.36L6.00027 15.84H11.2803Z" fill="#FA0000"/>
+<path id="Vector_8" d="M31.9199 15.84H37.1999L60.7199 0H55.9199L31.9199 15.84Z" fill="#FA0000"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</svg>
