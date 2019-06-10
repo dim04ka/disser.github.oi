@@ -13497,3 +13497,7 @@ input::-webkit-calendar-picker-indicator {
         width: 100%
 }
     }
+
+.fieldset__wrap .testInput {
+    font-size: 1rem;
+}
