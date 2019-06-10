@@ -1432,6 +1432,7 @@
 .iti-flag.np {
   background-color: transparent; }
 .ui-datepicker {
+	background-color: #f7f7f7;
 	background-color: var(--white);
 	box-shadow: 0px 6px 30px rgba(0, 0, 0, .15);
 	border-radius: 20px;
@@ -1443,6 +1444,7 @@
 		font-size: 1rem;
 		line-height: normal;
 		text-align: center;
+		color: #333;
 		color: var(--title-gray);
 		line-height: 2rem;
 	}
@@ -1489,6 +1491,7 @@
 	}
 
 	.ui-datepicker-calendar thead {
+    	color: #56ccf2;
     	color: var(--blue-bg);
 		}
 
@@ -1499,6 +1502,7 @@
 	}
 
 	.ui-datepicker span.ui-state-default {
+		color: #bdbdbd;
 		color: var(--calendar-gray);
 	}
 
@@ -1508,6 +1512,7 @@
 	}
 
 	.ui-datepicker td:hover {
+			background: #f2c94c;
 			background: var(--yellow);
 			border-radius: 20px;
 		}

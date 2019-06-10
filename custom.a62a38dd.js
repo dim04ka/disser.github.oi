@@ -18085,6 +18085,11 @@ function datePicker() {
   $('.project').scroll(function () {
     $("#datepicker").datepicker("hide");
     $("#datepicker").blur();
+    $('#datepicker').datepicker({
+      beforeShow: function beforeShow() {
+        $('input').blur();
+      }
+    });
   });
 }
 
