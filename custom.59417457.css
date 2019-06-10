@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Owl Carousel v2.3.4
  * Copyright 2013-2018 David Deutsch
  * Licensed under: SEE LICENSE IN https://github.com/OwlCarousel2/OwlCarousel2/blob/master/LICENSE
@@ -1432,7 +1432,6 @@
 .iti-flag.np {
   background-color: transparent; }
 .ui-datepicker {
-	background-color: #f7f7f7;
 	background-color: var(--white);
 	box-shadow: 0px 6px 30px rgba(0, 0, 0, .15);
 	border-radius: 20px;
@@ -1444,7 +1443,6 @@
 		font-size: 1rem;
 		line-height: normal;
 		text-align: center;
-		color: #333;
 		color: var(--title-gray);
 		line-height: 2rem;
 	}
@@ -1455,12 +1453,13 @@
 
 	.ui-datepicker-prev {
 		position: absolute;
-		top: 10px;
-		left: 20px;
+		top: 0px;
+		left: 15px;
 		background-image: url("/datepick-left.2e560f66.svg");
 		background-repeat: no-repeat;
-		width: 6px;
-    height: 20px;
+		background-position: center;
+		width: 35px;
+		height: 30px;
 		cursor: pointer;
 	}
 
@@ -1470,12 +1469,13 @@
 
 	.ui-datepicker-next {
 		position: absolute;
-		top: 10px;
-		right: 20px;
+		top: 0px;
+		right: 11px;
 		background-image: url("/datepick-right.edfabd00.svg");
 		background-repeat: no-repeat;
-		width: 6px;
-		height: 20px;
+		width: 35px;
+		height: 30px;
+		background-position: center;
 		cursor: pointer;
 	}
 
@@ -1489,7 +1489,6 @@
 	}
 
 	.ui-datepicker-calendar thead {
-    	color: #56ccf2;
     	color: var(--blue-bg);
 		}
 
@@ -1500,7 +1499,6 @@
 	}
 
 	.ui-datepicker span.ui-state-default {
-		color: #bdbdbd;
 		color: var(--calendar-gray);
 	}
 
@@ -1510,7 +1508,6 @@
 	}
 
 	.ui-datepicker td:hover {
-			background: #f2c94c;
 			background: var(--yellow);
 			border-radius: 20px;
 		}
@@ -3277,8 +3274,15 @@ input {
 .headerform__selectwork {
     margin-right: 20px;
     width: 255px;
-    height: 50px;
+    height: 50px
 }
+
+@media (max-width: 768px) {
+
+.headerform__selectwork {
+        width: 300px
+}
+    }
 
 .headerform__theme {
     width: 100%;
@@ -10172,6 +10176,7 @@ main {
     background: #f1fbfe;
     background: var(--light-blue-bg);
     margin-top: -74px;
+    height: 100vh;
 }
 
 input::-webkit-calendar-picker-indicator {
@@ -13061,8 +13066,8 @@ input::-webkit-calendar-picker-indicator {
 
 .project {
         width: 100%;
-	overflow-x: hidden;
-        padding: 20px 5px 0px
+        padding: 20px 5px 0px;
+        overflow-x: hidden
 }
     }
 
@@ -13271,8 +13276,16 @@ input::-webkit-calendar-picker-indicator {
             color: #f2c94c;
             color: var(--yellow);
             cursor: pointer;
-            border: none;
+            border: none
         }
+
+@media (max-width: 768px) {
+
+
+        .project .mainform__btn {
+                display: none
+        }
+            }
 
 .project .mainform__btn-minus {
                 top: 45px;
@@ -13460,3 +13473,22 @@ input::-webkit-calendar-picker-indicator {
             transform: translateY(0%); 
     opacity: 1;
 }
+
+@media (max-width: 768px) {
+
+.input_datepick-Form {
+        display: none
+}
+    }
+
+.input_date-Form {
+    display: none
+}
+
+@media (max-width: 768px) {
+
+.input_date-Form {
+        display: block;
+        width: 100%
+}
+    }

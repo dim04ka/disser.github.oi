@@ -54,9 +54,9 @@
   <div class="wrapper wrap">
     <div class="header__wrap">
       <h1 class="header__title">Уникальные <br>диссертации на&nbsp;заказ</h1>
-      <div class="header__desc">Выполнение кандидатских, докторских, магистерских диссертаций и монографий профессорами и докторами наук. Соблюдение всех стандартов, отсутствие плагиата, грамотное изложение материала. Защищено более 1000 наших диссертаций за 18 лет успешной работы.</div>
-      <div class="header__desc header__desctab">Выполнение кандидатских, докторских, магистерских диссертаций и монографий профессорами и докторами наук. Соблюдение всех стандартов, отсутствие плагиата, грамотное изложение материала.</div>
-      <div class="header__desc header__descmobile">Выполнение кандидатских, докторских, магистерских диссертаций и монографий профессорами и докторами наук. </div>
+      <div class="header__desc">Выполнение кандидатских, докторских, магистерских диссертаций и монографий профессорами и докторами наук. Соблюдение всех стандартов, отсутствие плагиата, грамотное изложение материала. Защищено более <span class="countup3">1000</span> наших диссертаций за <span class="countup3">18</span> лет успешной работы.</div>
+      <div class="header__desc header__desctab">Выполнение кандидатских, докторских, магистерских диссертаций и монографий профессорами и докторами наук. Защищено более <span class="countup3">1000</span> наших диссертаций за <span class="countup3">18</span> лет успешной работы.</div>
+      <div class="header__desc header__descmobile">Выполнение кандидатских, докторских, магистерских диссертаций и монографий профессорами и докторами наук.Защищено более <span class="countup3">1000</span> наших диссертаций за <span class="countup3">18</span> лет успешной работы. </div>
       <div class="header__form">
         <form id="mainform" name="orderForm" class="headerform" action="#" method="post">
           <div class="header__form-title">Узнать стоимость вашей работы</div>
@@ -255,7 +255,7 @@
         </div>
         <div class="reason prepay">
           <i class="reason__ico fas fa-money-bill"></i>
-          <span class="reason__text">Предоплата всего 25% от&nbsp;суммы заказа</span>
+          <span class="reason__text">Предоплата всего <span class="countup2">25</span>% от&nbsp;суммы заказа</span>
         </div>
         <div class="reason personal">
           <i class="reason__ico fas fa-clock"></i>
@@ -329,7 +329,7 @@
       <h2 class="h2title reviews__title">Отзывы о нашей работе</h2>
       <div class="reviews__rating">
         Общий рейтинг <i class="star"></i> <span class="rating__mark">4,89 из 5
-          (13 255 голосов)</span>
+          (<span class="countup4">13255</span> голосов)</span>
       </div>
         <div id="reviews__list" class="owl-carousel owl-theme reviews__slider" data-slider="reviews">
           <div class="review">
@@ -506,7 +506,7 @@
         </div>
         <div class="step step_pre20">
           <i class="reason__ico warranty__ico step__ico fas fa-money-bill"></i>
-          <span class="warranty__text step__text">Внесите предоплату&nbsp;25%</span>
+          <span class="warranty__text step__text">Внесите предоплату&nbsp;<span class="countup">25</span>%</span>
         </div>
         <div class="step step_wait">
           <i class="reason__ico warranty__ico step__ico fas fa-briefcase"></i>
@@ -514,7 +514,7 @@
         </div>
         <div class="step step_pre80">
           <i class="reason__ico warranty__ico step__ico fas fa-money-bill"></i>
-          <span class="warranty__text step__text">Оплатите оставшиеся&nbsp;75%</span>
+          <span class="warranty__text step__text">Оплатите оставшиеся&nbsp;<span class="countup">75</span>%</span>
         </div>
         <div class="step step_finish">
           <i class="reason__ico warranty__ico step__ico far fa-check"></i>
@@ -940,7 +940,9 @@
               <div class="wrap__flex_sb">
                 <div class="mainform__temsFixed">
                   <label for="datepicker">Срок выполнения<span class="required-mark">*</span></label>
-                  <input type="date" autocomplete="off">
+                  <input id="datepicker" maxlength="10" type="text" class="input__text input__gray input__hover input_datepick-Form" placeholder="19 декабря 2019 г." required="" autocomplete="off">
+                  
+                  <input type="date" autocomplete="off" class="input__text input__gray input__hover input_date-Form">
                 </div>
                 <div class="mainform__reletive">
                   <label for="mainform__numberPage">Количество страниц<span class="required-mark">*</span></label>
@@ -965,7 +967,7 @@
               </div>
               <div class="mainform__reletive">
                 <label for="story">Пояснение к заказу</label> 
-                <textarea id="story" name="story" rows="5" cols="33">Предмет *</textarea>
+                <textarea id="story" name="story" rows="5" cols="33" placeholder="Предмет *"></textarea>
               </div>
             </div>
           </fieldset>
@@ -1001,6 +1003,7 @@
 
   <script src="custom.a62a38dd.js"></script>
   <script src="chosen.jquery.e092beb9.js"></script>
+  <script src="jquery.spincrement.6e9fcb39.js"></script>
 
 
 

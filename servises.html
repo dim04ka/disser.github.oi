@@ -266,7 +266,7 @@
       <h2 class="h2title reviews__title">Отзывы о нашей работе</h2>
       <div class="reviews__rating">
         Общий рейтинг <i class="star"></i> <span class="rating__mark">4,89 из 5
-          (13 255 голосов)</span>
+          (<span class="countup4">13255</span> голосов)</span>
       </div>
         <div id="reviews__list" class="owl-carousel owl-theme reviews__slider" data-slider="reviews">
           <div class="review">
@@ -770,7 +770,9 @@
               <div class="wrap__flex_sb">
                 <div class="mainform__temsFixed">
                   <label for="datepicker">Срок выполнения<span class="required-mark">*</span></label>
-                  <input id="datepicker" maxlength="10" type="text" class="input__text input__gray input__hover input_datepick" placeholder="19 декабря 2019 г." required="" autocomplete="off">
+                  <input id="datepicker" maxlength="10" type="text" class="input__text input__gray input__hover input_datepick-Form" placeholder="19 декабря 2019 г." required="" autocomplete="off">
+                  
+                  <input type="date" autocomplete="off" class="input__text input__gray input__hover input_date-Form">
                 </div>
                 <div class="mainform__reletive">
                   <label for="mainform__numberPage">Количество страниц<span class="required-mark">*</span></label>
@@ -795,7 +797,7 @@
               </div>
               <div class="mainform__reletive">
                 <label for="story">Пояснение к заказу</label> 
-                <textarea id="story" name="story" rows="5" cols="33">Предмет *</textarea>
+                <textarea id="story" name="story" rows="5" cols="33" placeholder="Предмет *"></textarea>
               </div>
             </div>
           </fieldset>
@@ -831,6 +833,7 @@
 
   <script src="/custom.a62a38dd.js"></script>
   <script src="/chosen.jquery.e092beb9.js"></script>
+  <script src="/jquery.spincrement.6e9fcb39.js"></script>
 
 
 
