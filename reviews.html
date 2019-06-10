@@ -415,7 +415,7 @@
               <div class="wrap__flex_sb">
                 <div class="mainform__temsFixed">
                   <label for="datepicker">Срок выполнения<span class="required-mark">*</span></label>
-                  <input id="datepicker" maxlength="10" type="text" class="input__text input__gray input__hover input_datepick-Form" placeholder="19 декабря 2019 г." required="" autocomplete="off">
+                  <input id="datepicker" readonly="readonly" maxlength="10" type="text" class="input__text input__gray input__hover input_datepick-Form" placeholder="19 декабря 2019 г." required="" autocomplete="off">
                   <input type="date" autocomplete="off" placeholder="12 января 2019 г." class="input__text input__gray input__hover input_date-Form">
                 </div>
                 <div class="mainform__reletive">
@@ -473,9 +473,9 @@
             <div class="wrap__flex_sb wrap__flex_sb-wrap">
               <input type="text" class="testInput" placeholder="Имя *">
               <div class="elect__flags-stretch">
-                  <input type="tel" maxlength="25" id="select__flags_modal" class="headerform__tel input__text input__gray input__hover intl-tel-input" name="flags" autocomplete="off">
+                  <input type="tel" maxlength="25" id="select__flags_modal" class="headerform__tel input__text input__gray input__hover intl-tel-input testInput" name="flags" autocomplete="off">
               </div> 
-              <input type="email" placeholder="E-mail *">  
+              <input type="email" class="testInput" placeholder="E-mail *">  
             </div>       
               <label class="authorform__checkbox authorform__checkbox-form">Я даю согласие на обработку своих персональных данных в соответствии с&nbsp;<a href="#" target="_blank">Политикой конфиденциальности</a>
                 <input type="checkbox" id="terms__zakaz" checked="checked" name="terms" required="">
