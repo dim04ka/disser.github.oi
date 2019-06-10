@@ -771,7 +771,7 @@
                 <div class="mainform__temsFixed">
                   <label for="datepicker">Срок выполнения<span class="required-mark">*</span></label>
                   <input id="datepicker" maxlength="10" type="text" class="input__text input__gray input__hover input_datepick-Form" placeholder="19 декабря 2019 г." required="" autocomplete="off">
-                  <input type="date" autocomplete="off" placeholder="19 декабря 2019 г." class="input__text input__gray input__hover input_date-Form">
+                  <input type="date" autocomplete="off" placeholder="12.12.2019" class="input__text input__gray input__hover input_date-Form">
                 </div>
                 <div class="mainform__reletive">
                   <label for="mainform__numberPage">Количество страниц<span class="required-mark">*</span></label>
@@ -795,26 +795,46 @@
               </div>
               <div class="mainform__reletive">
                 <label for="story">Пояснение к заказу</label> 
-                <textarea id="story" name="story" rows="5" cols="33" placeholder="Предмет *"></textarea>
+                <textarea id="story" name="story" rows="5" cols="33">Предмет *</textarea>
               </div>
             </div>
           </fieldset>
-          <fieldset class="fieldset__wrap">
+          <!-- <fieldset class="fieldset__wrap">
             <div class="wrap__flex_sb">
                 <div>
                     
-                    <input id="mainform_name-modal" type="text" class="headerform__name input__text input__gray input__hover input__mr10 headerform__name-forms" placeholder="Имя *" required="" autocomplete="off">
+                    <input id="mainform_name-modal" type="text" class="headerform__name input__text input__gray input__hover input__mr10 headerform__name-forms" placeholder="Имя *" required autocomplete="off">
                 </div>
                 <div class="elect__flags-stretch">
                     
-                    <input type="tel" maxlength="25" id="select__flags_modal" class="headerform__tel input__text input__gray input__hover intl-tel-input" name="flags" autocomplete="off">
+                    <input type="tel" maxlength="25" id="select__flags_modal" class="headerform__tel input__text input__gray input__hover intl-tel-input" name="flags" autocomplete="off" >
                     <span id="valid-msg" class="hide"></span>
                     <span id="error-msg" class="hide"></span>
                 </div>
             </div>  
 
             <div class="wrap__flex_sb">
-              <input id="mainform__email-modal" type="email" class="headerform__email input__text input__gray input__hover" placeholder="E-mail *" required="" autocomplete="off">        
+              <input id="mainform__email-modal" type="email" class="headerform__email input__text input__gray input__hover" placeholder="E-mail *" required autocomplete="off">        
+            </div>
+            <label class="authorform__checkbox authorform__checkbox-form">Я даю согласие на обработку своих персональных данных в соответствии с&nbsp;<a href="#" target="_blank">Политикой конфиденциальности</a>
+              <input type="checkbox" id="terms__zakaz" checked="checked" name="terms" required="">
+              <span></span>
+            </label>
+          </fieldset> -->
+
+          <fieldset class="fieldset__wrap">
+            <div class="wrap__flex_sb">
+                <div>
+                    
+                    <input type="text" placeholder="Имя *" required="" autocomplete="off">
+                </div>
+                <div class="elect__flags-stretch">
+                    <input type="tel" maxlength="25" id="select__flags_modal" name="flags" autocomplete="off">
+                </div>
+            </div>  
+
+            <div class="wrap__flex_sb">
+              <input type="email" placeholder="E-mail *" required="" autocomplete="off">        
             </div>
             <label class="authorform__checkbox authorform__checkbox-form">Я даю согласие на обработку своих персональных данных в соответствии с&nbsp;<a href="#" target="_blank">Политикой конфиденциальности</a>
               <input type="checkbox" id="terms__zakaz" checked="checked" name="terms" required="">
